@@ -22,40 +22,10 @@
             >Access to our dashboard</v-card-text
           >
           <v-form ref="createAccount">
-            <!--<span class="font-weight-bold px-0">First Name</span>-->
             <v-text-field
               v-model="newAccount.firstName"
               label="First Name"
               :rules="validationRules.validation.textRules"
-              variant="solo"
-              background-color=""
-            ></v-text-field>
-            <v-text-field
-              v-model="newAccount.lastName"
-              label="Last Name"
-              :rules="validationRules.validation.textRules"
-              variant="solo"
-              background-color=""
-            ></v-text-field>
-            <v-text-field
-              v-model="newAccount.email"
-              label="Enter Email"
-              :rules="validationRules.validation.emailRules"
-              variant="solo"
-              background-color=""
-            ></v-text-field>
-            <v-text-field
-              v-model="newAccount.password"
-              label="Enter Password"
-              type="password"
-              :rules="validationRules.validation.passowrdRules"
-              variant="solo"
-              background-color=""
-            ></v-text-field>
-            <v-text-field
-              v-model="newAccount.repeatPassword"
-              label="Repeat Password"
-              type="password"
               variant="solo"
               background-color=""
             ></v-text-field>
